@@ -1,1 +1,6 @@
 /node_modules
+/html
+/input.csv
+/output-large.xlsx
+/output-medium.xlsx
+/package-lock.json
