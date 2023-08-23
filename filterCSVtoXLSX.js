@@ -4,7 +4,8 @@ const XLSX = require('xlsx');
 
 // Define the properties you want to filter
 const propertiesToFilter = [
-  'TimeToLoadCheckoutStep1',
+  'TimeToLoadShoppingCartMedium Cart',
+  'TimeToLoadShoppingCartLarge Cart',
   'TimeToLoadUpdatingCartName',
   'IncreaseQuantity',
   'TimeToLoadProductDetailsPage',
@@ -14,6 +15,7 @@ const propertiesToFilter = [
   'TimeToAddProductFromQuickOrder',
   'TimeToAddProductFromFavoriteLists',
   'TimeToLoadUpdatingNotes',
+  'TimeToLoadCheckoutStep1',
   'TimeToLoadCheckoutStep2',
   'TimeToLoadOrderConfirmationPage'
 ];
